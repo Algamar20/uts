@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ketik selanjutnya untuk melihat aritmatika</h1>
+    <button onclick="myFunction()">tryIt</button>
+
+    <div id="penjumlahan"></div>
+    <div id="pengurangan"></div>
+    <div id="pembagian"></div>
+    <div id="perkalian"></div>
+    <div id="modulus"></div>
+
+    <script>
+        function myFunction()
+        alert("tess")
+        var angka1 = 20;
+        var angka2 = 15;
+
+        var penjumlahan = angka1+angka2;
+        var pengurangan = angka1-angka2;
+        var pembagian = angka1/angka2;
+        var perkalian = angka1*angka2;
+        var modulus = angka1%angka2;
+
+        document.getElementById('penjumlahan').innerHTML = penjumlahan;
+        document.getElementById('pengurangan').innerHTML = pengurangan;
+        document.getElementById('pembagian').innerHTML = pembagian;
+        document.getElementById('perkalian').innerHTML = perkalian;
+        document.getElementById('modulus').innerHTML = modulus;
+    </script>
+</body>
+</html>
